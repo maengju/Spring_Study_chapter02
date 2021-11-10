@@ -1,17 +1,16 @@
 package sample02;
 
+import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class CalcAdd implements Calc {
-	@NonNull
+	
 	private int x,y;
 	
 	
-	public CalcAdd() {
-		
-	}
+	
 	
 	
 	
